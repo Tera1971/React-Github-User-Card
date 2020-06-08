@@ -9,7 +9,7 @@ function Card(props){
             <h2>{props.username}</h2>
             <a href = "https://github.com/Tera1971">{props.profile}</a>
             <h4>Followers {props.followers}</h4>
-            <h4>Folowing  {props.following}</h4>
+            <h4>Folowing {props.following}</h4>
             <p>{props.bio}</p>
         </Box>
 )}
