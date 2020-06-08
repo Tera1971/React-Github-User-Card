@@ -1,12 +1,13 @@
 import React, { Component} from 'react';
 import axios from 'axios';
 import './App.css';
+import Card from './components/Card';
 
 class App extends React.Component {
   constructor() {
     super()
     this.state = {
-    uset: '',
+    user: '',
     followers: []
     };
   }
@@ -41,8 +42,7 @@ class App extends React.Component {
          />
          <h2>My Followers</h2>
          {this.state.followers.map(user=>{
-           return
-           <Card
+           return <Card
            userImg = {user.avatar_url}
            name = {user.name}
            userName = {user.login}
