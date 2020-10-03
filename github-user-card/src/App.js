@@ -1,4 +1,4 @@
-import React, { Component } from "React";
+import React from "React";
 import axios from "axios";
 import "./App.css";
 import Card from "./Card";
